@@ -42,9 +42,11 @@ def predict():
       return render_template('index.html',prediction_text='Review is positive')
     else:
       return render_template('index.html',prediction_text='Review is negative')
+    
+    
    
- 
-if __name__=="__main__":
+if __name__ == "__main__":
   app.run(debug=True)
+    
   
 
